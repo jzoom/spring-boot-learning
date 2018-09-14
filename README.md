@@ -1,11 +1,13 @@
 
 # spring-boot 学习资料整理
 
+工欲善其事，必先利其器。这份资料收集目前的资料站点、开源库和写的比较清楚的博客。
+
 ## 资料集合
 
 ### 资料站点
 + [spring4all](http://www.spring4all.com/)
-+ 
+
 
 ### 开源资料库
 + [SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
@@ -14,6 +16,9 @@
 
 ## 配置
 
+
+## http/https/http2相关资料
+
 ## Restful Api
 
 ## WebSocket
@@ -21,24 +26,51 @@
 ## 模板引擎
 
 ### Thymeleaf
-+ 基础教程
++ [官方文档(英文)](https://www.thymeleaf.org/documentation.html)
 + Thymeleaf语法总结
 
 
 ## 安全
 
-+ csrf-token
+### spring-security
+
+### oauth2
+
+### csrf-token
+
 
 ## 缓存
 
-+ memcache
-+ redis
-+ EhCache
+### memcache
+### redis
+### EhCache
 
 ## 数据库
 
+### MyBatis
+### jpa
+
 ## 消息队列
+
+### RobbitMQ
 
 ## email
 
+### 发送email
++ [spring boot 学习(十)SpringBoot配置发送Email](https://blog.csdn.net/u011244202/article/details/54809696/)
+
+### 自己架设email服务器
+
 ## 异步
++ [SpringBoot集成篇（二） 异步调用Async](https://blog.csdn.net/v2sking/article/details/72795742)
+
+## 支付相关
+
+### 微信支付
+
++ https://blog.csdn.net/wenqiwenqi123/article/details/78734405
++ https://blog.csdn.net/vbirdbest/article/details/80723991
+
+### 支付宝支付
+### 一网通支付
+### 银联支付
