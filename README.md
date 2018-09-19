@@ -11,6 +11,13 @@
 + 3、带有实际操作+源代码加分（当然要可以运行的，有些文章的代码本身就有错误，阅读本身就是一种浪费时间，所以笔者会尽量鉴别）。
 + 4、使用当前的主流技术和思路。
 
+文章来源：
++ 1、google、百度
++ 2、segmentfault
++ 3、简书
++ 4、csdn
+
+
 当然，笔者在这里肯定会有疏漏和不足，希望大家来找茬，提提issue。如果有好的文章推荐，十分欢迎PR。
 
 ## 目录
@@ -28,9 +35,15 @@
 + [泥沙砖瓦浆木匠](https://git.oschina.net/jeff1993/springboot-learning-example)
 
 
+### 优秀博客
++ [梁桂钊的掘金](https://juejin.im/user/57f99a330e3dd90057bb9797/posts)
+
 
 ## 配置
 + [Spring Boot application.properties配置属性](https://www.jianshu.com/p/5b8fd2e336c5)
+
+## 日志
++ [Spring Boot 揭秘与实战（三） 日志框架篇 - 如何快速集成日志系统](https://juejin.im/post/585a8a3661ff4b006cc35eda)
 
 
 ## 异常处理
@@ -42,8 +55,10 @@
 ## 登录
 + [SpringBoot注册登录(四)：登录功能--密码错误三次，需要等待2分钟才能登录，固定时间内不能登录](https://blog.csdn.net/qq_36688143/article/details/79498568)
 + [Spring boot + Spring Security + Thymeleaf 认证失败返回错误信息](https://blog.csdn.net/sun1021873926/article/details/60332059)
-+ [oauth2(英文),忽略英文，直接照着贴代码](https://spring.io/guides/tutorials/spring-boot-oauth2/)
 
+### oauth2
++ [oauth2(英文),忽略英文，直接照着贴代码](https://spring.io/guides/tutorials/spring-boot-oauth2/)
++ [Spring Boot Oauth2缓存UserDetails到Ehcache](https://segmentfault.com/a/1190000015881557)
 
 ## http/https/http2相关资料
 + [理解HTTP协议](https://www.cnblogs.com/wxisme/p/6212797.html)
@@ -65,13 +80,13 @@
 + [Thymeleaf3语法详解](https://www.cnblogs.com/itdragon/archive/2018/04/13/8724291.html)
 
 ### freemarker
-
++ [Spring Boot 揭秘与实战（七） 实用技术篇 - FreeMarker 模板引擎](https://juejin.im/post/586a6dadac502e006d7f8e02)
 
 ## 安全
 
 ### spring-security
 
-### oauth2
+
 
 ### csrf-token
 
@@ -80,7 +95,11 @@
 ## 缓存
 
 ### memcache
+
 ### redis
++ [Spring Boot 揭秘与实战（二） 数据缓存篇 - Redis Cache](https://juejin.im/post/586e449b570c350068c07826)
++ [Spring Boot + Mybatis + Redis二级缓存（Java Web现代化开发）](https://segmentfault.com/a/1190000012404111)
+
 ### EhCache
 
 ## 数据库
@@ -90,6 +109,12 @@
 ### jpa
 + [spring-boot+jpa的简单使用](https://www.jianshu.com/p/dbe9673d741d)
 + [Spring Boot JPA 详解](https://www.jianshu.com/p/133c655725c8)
+
+### 多数据源相关
++ [Spring Boot 揭秘与实战（二） 数据存储篇 - 数据访问与多数据源配置](https://juejin.im/post/58586967ac502e006703dbd3)
+
+### NoSql相关
+
 
 ## 消息队列
 
@@ -103,6 +128,8 @@
 
 ### 发送email
 + [spring boot 学习(十)SpringBoot配置发送Email](https://blog.csdn.net/u011244202/article/details/54809696/)
++ [邮件发送工具类](https://segmentfault.com/a/1190000012415851)
+
 
 ### 自己架设email服务器
 
