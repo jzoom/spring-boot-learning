@@ -41,6 +41,7 @@ public class App extends WebSecurityConfigurerAdapter
 
     @Autowired
     OAuth2ClientContext oauth2ClientContext;
+    
     @Autowired
     private OAuth2ClientContextFilter oauth2ClientContextFilter;
 
