@@ -15,7 +15,7 @@
 + 1、google、百度
 + 2、segmentfault
 + 3、简书
-+ 4、csdn
++ 4、csdn
 
 
 当然，笔者在这里肯定会有疏漏和不足，希望大家来找茬，提提issue。如果有好的文章推荐，十分欢迎PR。
@@ -104,11 +104,52 @@
 
 ## 数据库
 
+数据库常见的操作有：
+
+### 查询
++ 1、根据某个字段查询（findByXXX)
++ 2、分页查询（Page）
++ 3、复杂条件查询（多条件where）
++ 4、多表复杂条件查询（join）
++ 5、联合查询（union）
+
+### 插入数据
++ 1、插入一条数据
++ 2、插入多条数据
+
+### 更新数据
++ 1、更新一条数据
++ 2、条件更新多条数据
+
+### 删除数据
++ 1、删除一条数据
++ 2、删除多条数据
+
+### 数据库驱动相关
++ 1、条件更新或插入（有更新、无插入）
++ 2、根据primary key、unique key或index条件更新或插入（满足更新或插入，不满足不更新或插入）
+
+### 事务处理
++ 1、单数据源
++ 2、多数据源
+
+### 数据库锁
++ 1、悲观锁
++ 2、乐观锁
+
+### 数据库描述
++ 1、数据库版本
++ 2、数据库格式转化
+
+
 ### MyBatis
 
 ### jpa
 + [spring-boot+jpa的简单使用](https://www.jianshu.com/p/dbe9673d741d)
 + [Spring Boot JPA 详解](https://www.jianshu.com/p/133c655725c8)
++ [springdata jpa使用Example快速实现动态查询](https://blog.csdn.net/long476964/article/details/79677526)
++ [在Spring Boot中使用Spring-data-jpa实现分页查询(https://blog.csdn.net/zhengxiangwen/article/details/63815551)
++ [jpa多条件查询重写Specification的toPredicate方法](https://blog.csdn.net/springlovejava/article/details/78792716)
 
 ### 多数据源相关
 + [Spring Boot 揭秘与实战（二） 数据存储篇 - 数据访问与多数据源配置](https://juejin.im/post/58586967ac502e006703dbd3)
